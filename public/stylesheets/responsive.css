@@ -1,0 +1,241 @@
+@media screen and (min-width:768px) and (max-width:1169px){
+.wrapper{ width:auto; padding:0 10px;}
+.logo{ line-height:0; padding-top:10px; height:auto; overflow:hidden; padding-bottom:10px;}
+.header_right{ line-height:28px;}
+.adhiyagya_menu ul li ul{ top:40px;}
+.adhiyagya_menu ul li{ margin-right:20px;}
+.home_about .wrapper{ padding-top:40px; padding-bottom:40px;}
+.home_about_right{ width:52%;}	
+.home_about_right img{ width:100%; height:auto; overflow:hidden;}
+.home_project{ padding-top:114px;}
+.home_volunteer{ padding-top:40px; }
+.home_volunteer .home_volunteer_left{ width:52%; position:absolute; left:0; bottom:0;}	
+.home_volunteer .home_volunteer_left img{ width:100%; height:auto; overflow:hidden;}
+.home_volunteer .wrapper{ position:relative;}
+.home_form input{ width:100%;}
+.home_volunteer .home_volunteer_right{padding-bottom:40px;}
+.home_form input[name=v_name]{ margin-bottom:19px;}
+.home_form input[name=v_address]{ margin-bottom:19px;}
+.home_form .form_row_3 textarea{ width:100%; box-sizing:border-box;}
+.home_blog{ padding-top:46px; padding-bottom:20px;}
+.home_blog ul li:nth-child(2){ padding-left:0;}
+.home_blog ul li .blog_content{ padding-left:0;}
+.home_blog ul li:first-child{ border-right:0;}
+.home_blog ul li{ box-sizing:border-box; padding:0 10px;}
+.home_blog ul li .blog_content{ width:100%;}
+.home_blog ul li .blog_img{ float:none;}
+.newsletter_left input{ margin-left:10px; width:190px;}
+.newsletter_left .newsletter_btn{ width:116px; margin-left:5px;}
+.event_section .cold_brake_bg::before {background:none;}
+.core_team .cold_brake_bg::before {background:none;}
+
+
+
+
+.common_space{ padding:45px 0;}
+.base_content{ padding-bottom:0px;}
+.team_section ul li{ width:45%;}
+.inc_projects ul li{ width:50%;}
+.volunteer_section ul li{ width:48%;}
+.volunteer_sctn{ height:auto; overflow:hidden;}
+.volunteer_sctn img{ width:100%; overflow:hidden; height:auto;}
+.ipad-clr{ clear:both;}
+.event_img img{ width:100%; overflow:hidden;}
+.events_section ul li{ width:48%; float:left; margin-right:2%;}
+.contact_address{ width:32%;}
+.contact_form{ width:62%;}
+.contact_form .form_col1, .contact_form .form_col2{ box-sizing:border-box; padding-right:10px;}
+.form_col1 input{ width:100%; box-sizing:border-box;}
+.form_col2 textarea{ width:100%; box-sizing:border-box;}
+.projects_section .cold_brake_bg .cold_brake_image img{ width:98%; height:auto; overflow:hidden; margin-left:0;}
+.projects_section .project_desc{ width:50%; padding-left:0;}
+.projects_section .cold_brake_bg{ background:none; margin-left:0; width:50%; transform:rotate(0);}
+.projects_section .cold_brake_image{ transform:rotate(0deg);}
+.project_gallery ul li{ margin-right:3px;}
+.events_sctn .event_img .overlay img{ position:relative; width:unset;}
+.volunteer_section ul li:nth-child(4n){ margin-right:11px;}
+
+.event_section .cold_brake_bg::before {background:none;}
+
+#blog_list .side_cols {width:100%;}
+}
+@media screen and (max-width:767px){
+.wrapper{ width:auto; padding:0 10px;}
+.home_about_right{ display:none;}
+.home_about .wrapper{padding:0 10px; width:auto; padding-top:30px; padding-bottom:20px;}
+.home_about_left{ width:100%; float:none;}
+.banner_top{ display:none;}
+.adhiyagya_banner .bx-wrapper .bx-pager{ bottom:5px;}
+.header_info{ width:100%; text-align:left;}
+.header_right{ float:none;}
+.adhiyagya_menu{ display:none;}
+.logo{ height:auto; overflow:hidden; float:none; line-height:0; padding-bottom:20px;}
+.logo img{ height:50px}
+.navbar-header img{ height:50px}
+.mobile-menu-icon{ display:block;}
+
+.adhiyagya_menu{ width:200px !important; /*padding-top:0px !important; padding-right:30px;*/ position:absolute; right:10px; top:100px; z-index:16; padding-top:8px;}
+.adhiyagya_menu ul{ float:none;}
+.adhiyagya_menu ul li{ width:100%; float:none; border-bottom:1px solid #a77100; margin-right:0; line-height:32px;  background:#f2a400;}
+.adhiyagya_menu ul li a{ padding-left:10px; display:inline-block; width:100%;}
+.adhiyagya_menu ul li.current-menu-item{ background:#a77100;}
+.adhiyagya_menu ul li ul li:first-child::before{ display:none;}
+.adhiyagya_menu ul li ul{ position:relative; width:100%; left:0; display:none;}
+.adhiyagya_menu ul li:hover ul{ display:block;}
+
+
+.adhiyagya_menu ul li:first-child:before{
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #f2bf00;
+	content:"";
+	position:absolute;
+	top:-8px;
+	right:12px;
+}
+.home_project{ padding-top:20px; height:auto; overflow:hidden; padding-bottom:20px;}
+.home_project ul{ padding-top:10px;}
+.home_project .heading-project span{ font-size:20px;}
+
+.home_volunteer .home_volunteer_left{ display:none;}
+.home_volunteer .home_volunteer_right{ width:100%; float:none;}
+.home_volunteer .home_volunteer_right .h_volunteer_title{ line-height:48px;}
+.home_volunteer{ padding-top:30px; padding-bottom:30px;}
+.home_form input{ width:100%;}
+
+.form_row1 input[name=v_name]{ margin-bottom:17px;}
+.form_row2 input[name=v_address]{ margin-bottom:17px;}
+.home_form .form_row_3 textarea{ width:100%; box-sizing:border-box;}
+
+.home_gallery .heading_gallery span{ font-size:20px;}
+.home_gallery .glry{ padding:0; margin-top:20px;}
+.home_gallery .glry .owl-buttons{ display:none;}
+.home_gallery .glry .owl-pagination{ display:block;}
+.home_gallery{ padding:40px 0;}
+
+
+.home_blog ul li{ width:100%; float:none; height:auto; overflow:hidden; border:0; padding-bottom:30px;}
+.home_blog ul li:nth-child(2){ padding-left:0;}
+.home_blog ul li:first-child{ border:0;}
+.home_blog ul li .blog_content{ padding-left:0;}
+.home_blog ul li .blog_img{ margin:auto; float:none; text-align:center;}
+.home_blog ul li .blog_content{ width:100%; float:none;}
+.home_blog .blog_heading{ line-height:48px;}
+.home_blog ul{ margin-top:20px;}
+.home_blog{ padding:40px 0;}
+.home_blog .blog_view{ width:100%; text-align:center; float:none;}
+
+
+.footer_section .copywrite{ width:100%; text-align:center; float:none;}
+.footer_section .grapes{ margin:auto; float:none; text-align:center;}
+.newsletter_right{ text-align:center; float:none; width:100%;}
+.newsletter_right a{ float:none; padding:0 18px;}
+.newsletter_left{ float:none; width:100%; height:auto; overflow:hidden; text-align:center; padding-bottom:20px;}
+.newsletter_left input{ margin-left:0; width:100%; margin-bottom:10px;}
+.newsletter_left .newsletter_btn{ margin-left:0;}
+.newsletter_left span{ margin-bottom:10px; display:inline-block;}
+
+
+
+
+
+.inner_heading img{ display:none;}
+.common_space{ padding:6px 0;}
+.team_section ul li{ width:100%;}	
+.team_section ul li img.core-team-image{ width:300px; margin:auto; padding-top:15px;}
+.inc_projects ul li{ width:100%;}
+.inc_projects ul{ padding-top:44px;}
+.inc_projects ul li{ padding-top:0;}
+.volunteer_section ul li{ width:100%;}
+.volunteer_para p{ padding:23px 0;}
+.volunteer_sctn img{ padding-top:10px;}
+.media_section ul li{ width:50%; text-align:center; margin-right:0; box-sizing:border-box; padding:0 20px;}
+.media_sctn .media_img{ width:100%; height:auto; overflow:hidden; line-height:0;}
+.media_sctn .media_img img{ width:100%; height:auto; overflow:hidden;}
+.media_sctn .media_img{ box-sizing:border-box;}
+.events_section ul li{ width:100%;}
+.events_section{  margin-top:37px;}
+.media_section{ margin-top:20px;}
+.events_sctn .event_img img{ width:50%;}
+ .events_sctn .event_img .overlay{ width:50%;left:50%; margin-left:-25%;}
+ .events_sctn .event_img .overlay img{ width:unset; position:relative; top:-43px; }
+ 
+ 
+ 
+ 
+ .contact_address{ width:100%; padding-top:35px;}
+ .contact_form{ width:100%;}
+ .contact_form .form_col1, .contact_form .form_col2{ width:50%;}
+ .form_col1 input{ width:91%; box-sizing:border-box;}
+ .form_col2 textarea{ width:100%; box-sizing:border-box; margin-bottom:43px;}
+ .cold_brake_bg{ background:none;}
+ .projects_section .project_desc{ padding-left:0; width:100%; text-align:center; float:none;}
+ .project_inner_title{ padding-top:29px;}
+ .projects_section .cold_brake_bg{transform:rotate(0deg); width:100%; height:auto; overflow:hidden; background:none; padding-bottom:30px; margin-left:0; float:none;}
+ .projects_section .cold_brake_image{ transform:rotate(0deg); margin:auto;}
+ .projects_section .project_desc .project_para{ text-align:left;}
+ .project_gallery ul li{ margin-right:1px;}
+ 
+ #blog_list .side_cols {width:100%;}
+  #blog_list .side_bar{width:100%;}
+  .event_section .cold_brake_bg::before {background:none;}
+.core_team .cold_brake_bg::before {background:none;}
+}
+@media screen and (max-width:500px){
+.team_section ul li img.core-team-image{ width:100%;}
+.media_section ul li{ width:100%; float:none;}
+.events_sctn .event_img img{ width:100%;}
+ .events_sctn .event_img .overlay img{ top:-5px;}
+.events_sctn .event_img .overlay{ width:100%; left:0; margin:0;}
+.contact_address{ width:100%;}
+ .contact_form{ width:100%;}
+ .contact_form .form_col1, .contact_form .form_col2{ width:100%;}
+ .form_col1 input{ width:100%; box-sizing:border-box;}
+ .projects_section .cold_brake_image{ width:100%;}
+ .projects_section .cold_brake_image img{ width:100%; height:auto; overflow:hidden;}
+ .projects_section .project_desc .project_inner_title{ padding-top:10px;}
+ .breadcrumb{line-height:30px;}
+ .header_info { text-align: left;}	
+ 
+ #blog_list .side_cols {width:100%;}
+ #blog_list .side_bar{width:100%;}
+ .event_section .cold_brake_bg::before {background:none;}
+.core_team .cold_brake_bg::before {background:none;}
+}
+@media screen and (max-width:437px){
+#blog_list .blog .info_r {height:70px;}
+#blog_list .blog .info_r span {
+    float: left;
+}	
+}
+
+@media screen and (max-width:360px){
+.breadcrumb{line-height:30px;}
+.header_info { text-align: left;}
+#blog_list .blog .info_r {height:70px;}
+#blog_list .blog .info_r span {
+    float: left;
+}	
+.event_section .cold_brake_bg::before {background:none;}
+.header_info span{margin-left:9px;}
+.core_team .cold_brake_bg::before {background:none;}
+
+.home_gallery .owl-prev {
+  background: rgba(0, 0, 0, 0) url("../images/left_arrow.png") no-repeat scroll 0 0 !important;  
+  left: 12px;  
+  top: 43%;  
+}
+.home_gallery .glry .owl-pagination {
+  display: none;
+}
+.home_gallery .owl-next {
+  background: rgba(0, 0, 0, 0) url("../images/right_arrow.png") no-repeat scroll 0 0 !important;
+  right: 12px;
+  top: 43%;  
+}
+.home_gallery .glry .owl-buttons {
+  display: block;
+}
+}

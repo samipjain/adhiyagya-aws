@@ -1,0 +1,13 @@
+branch-defaults:
+  master:
+    environment: adhiyagya-env
+    group_suffix: null
+global:
+  application_name: Adhiyagya
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: us-west-2
+  profile: eb-cli
+  repository: null
+  sc: git
