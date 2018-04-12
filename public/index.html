@@ -22,6 +22,26 @@
 	<link rel="icon" href="images/favicon-150x150.jpg" sizes="32x32" />
 	<link rel="icon" href="images/favicon-300x300.jpg" sizes="192x192" />
 	<link rel="apple-touch-icon-precomposed" href="images/favicon-300x300.jpg" />
+
+	<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+	<script>
+		window.onload = function() {
+			var recaptcha = document.forms["mG61Hd"]["g-recaptcha-response"];
+			recaptcha.required = true;
+			recaptcha.oninvalid = function(e) {
+				// do something
+				alert("Please complete the captcha");
+			}
+		}
+
+		function onSubmit(token) {
+			if (grecaptcha.getResponse() == '')
+				alert("Please complete the captcha");
+			//else
+		  		//document.getElementById("mG61Hd").submit();
+		}
+	</script>
 	
 	<style type="text/css">
 		img.wp-smiley,
@@ -237,24 +257,25 @@
 					<form action="https://docs.google.com/forms/d/e/1FAIpQLSexPwOisJUpYDd4td9tU1GvWeRuXlarLsFnnEj4KH2WQtlJkQ/formResponse" target="_self" method="POST" id="mG61Hd">
 						<div class="home_form">
 							<div class="form_row1">
-								<input type="text" name="entry.1003132863" id="v_name" onkeyup="return Remove1('v_name');" placeholder="ENTER YOUR NAME">
+								<input type="text" name="entry.1003132863" id="v_name" onkeyup="return Remove1('v_name');" placeholder="ENTER YOUR NAME" required>
 								
 								
-								<input type="text" name="entry.1987722533" id="v_email" onkeyup="return Remove1('v_email');" placeholder="ENTER YOUR EMAIL ADDRESS">
+								<input type="text" name="entry.1987722533" id="v_email" onkeyup="return Remove1('v_email');" placeholder="ENTER YOUR EMAIL ADDRESS" required>
 								<span id="error_v_name" class="span_error"></span>
 								<span id="error_v_email" class="span_error"></span>
 							</div>
 							<div class="form_row2">
-								<input type="text" name="entry.1485070140" id="v_address" onkeyup="return Remove1('v_address');" placeholder="CONTACT ADDRESS">
+								<input type="text" name="entry.1485070140" id="v_address" onkeyup="return Remove1('v_address');" placeholder="CONTACT ADDRESS" required>
 								
 								<input type="text" name="entry.81912639" id="v_city" onkeyup="return Remove1('v_city');" placeholder="ENTER YOUR CITY">
 								<span id="error_v_address" class="span_error"></span>
 								<span id="error_v_city" class="span_error"></span>
 							</div>
 							<div class="form_row_3">
-								<textarea name="entry.1268934056" id="v_message" onkeyup="return Remove1('v_message');" placeholder="MESSAGE"></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_e725ae-textarea_btn _e725ae-not_focused" data-grammarly-reactid=".0"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div></div></grammarly-btn>
+								<textarea name="entry.1268934056" id="v_message" onkeyup="return Remove1('v_message');" placeholder="MESSAGE" required></textarea>
 								<span id="error_v_message" class="span_error"></span>
 							</div>
+							<div class="g-recaptcha" data-sitekey="6LfBuk4UAAAAAD9DvXv0Q0-Hh5a70WofZieE18ra" data-callback='onSubmit'></div>
 							
 						</div>
 						<button class="volunteer_btn" type="submit">
@@ -402,14 +423,14 @@
                 <ul>
                 	<li>
                     	<div class="blog_img">
-                        	<img src="images/blog/Adhiyagya-India-at-70-small.jpg" alt="India at 70" />
+                        	<img src="images/blog/Adhiyagya-Mumbai-Medha Gupta-Volunteer.jpg" alt="Adhiyagya-Mumbai" />
                         </div>
                         <div class="blog_content">
-                        	<span>India at 70 - Education </span>
+                        	<span>The definition of 'Satisfaction'</span><br/><strong>The word ‘Satisfaction’ has different meanings in the</strong>
 							<div class="comment_section">	
 								<span class="comment-span"><i class="fa fa-comment-o"></i> 0 </span>
-								<span class="date-span"><i class="fa fa-calendar-o"></i> August 31, 2017</span>
-								<span class="readmore-span"><a href="/blog/india-at-70">Read Full Post</a></span>
+								<span class="date-span"><i class="fa fa-calendar-o"></i> April 13, 2018</span>
+								<span class="readmore-span"><a href="/blog/definition-of-satisfaction">Read Full Post</a></span>
 							</div>
                         </div>
                         <div class="clr"></div>
